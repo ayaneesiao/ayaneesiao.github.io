@@ -3,6 +3,109 @@
 <head>
    <meta charset="utf-8">
    <title>颱風.html</title> 
+   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/glasses.css">
+    <link rel="stylesheet" href="css/glasses_pad.css">
+    <link rel="stylesheet" href="css/glasses_mobile.css">
+   <style>
+ @media(max-width: 375px) {
+
+  /* 頁首區塊 */
+  header {
+    padding: 10px 0;
+    height: 30px;
+    position: relative;
+  }
+
+  header div {
+    width: 100%;
+    text-align: center;
+  }
+
+  header div img {
+    width: 48px;
+  }
+
+  header .menu_line {
+    display: block;
+    position: absolute;
+    width: 24px;
+    left: 16px;
+    top: 13px;
+  }
+
+  header ul {
+    display: none;
+  }
+
+
+  /* 封面的區塊 */
+  section.container-cover .title p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  section.container-cover .title-h1 {
+    font-size: 32px;
+    line-height: 45px;
+  }
+
+  section.container-cover .title {
+    margin: 163px 12px 0 0; 
+    max-width: 363px;
+  }
+
+  section.container-cover {
+    background: url("../images/68@2x.png") center / cover no-repeat;
+    height: 394px;
+    background-size: 375px 394px;
+  }
+
+
+  /*專業的區塊*/
+  .container-profession .profession-wrap {
+    padding: 32px 0 56px;
+  }
+
+  .container-profession ul {
+    max-width: 224px;
+    margin: 32px auto 0;
+  }
+
+  .container-profession ul li {
+    margin-bottom: 28px;
+  }
+
+  .container-profession ul li:nth-child(2) {
+    margin-bottom: 28px;
+  }
+
+  .container-profession ul li:nth-child(3) {
+    margin-bottom: 28px;
+  }
+
+  .container-profession ul li:nth-child(4) {
+    margin-bottom: 0;
+  }
+
+  .container-profession .profession-h2 {
+    font-size: 24px;
+    line-height: 33px;
+  }
+
+  .container-profession .profession-h3 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .container-profession p {
+    font-size: 16px;
+    line-height: 24px; 
+  }
+
+}
+</style>
 </head>
 <body>
 <form action="cgi-bin/get.exe" method="get">
