@@ -10,20 +10,23 @@
     <link rel="stylesheet" href="css/glasses_mobile.css">
    <style>
  @media(max-width: 375px) {
-     .btnshow, .btnshow.1, .btnshow.2, .btnshow.3 {
+     .c1, .c2, .c3, .c4, .c5 {
     width: 50%;
   }
 }
 </style>
 </head>
 <body>
+   <div class="container">
+      <div class="c1">
 <form action="cgi-bin/get.exe" method="get">
    <P Align=center><img src="颱風.jpg"></p>
 
 <ul>
    <li><a href="88.mp4" target="photo"><h2>莫拉克風災影片</h2></a></i>
 </ul>
-
+      </div>
+      <div class="c2">
    <h2>一、災害風險與衝擊</h2>
 
 <fieldset>
@@ -64,7 +67,9 @@ document.getElementById("btnhref").href ="javascript:divShow()";
    </div>
 <a href="javascript:divShow();" id="btnhref" class="btn-slide">颱風形成四部曲</a>
 </fieldset>
-   
+   </div>
+
+   <div class="c3">
 <fieldset>
    <legend><img src="造成的衝擊.jpg" width="300" height="75"></legend>
 <script type="text/javascript">
@@ -101,7 +106,9 @@ document.getElementById("btnhref.1").href ="javascript:divShow_1()";
 </div>
 <a href="javascript:divShow_1();" id="btnhref.1" class="btn-slide">颱風造成的衝擊</a>
 </fieldset>
+  </div>
 
+  <div class="c4">
    <h2>二、災害風險管理</h2>
 <fieldset>
    <legend><img src="減少風險因子.jpg" width="350" height="75"></legend>
@@ -126,7 +133,9 @@ document.getElementById("btnhref.2").href ="javascript:divShow_2()";
 </div>
 <a href="javascript:divShow_2();" id="btnhref.2" class="btn-slide">如何減少颱風風險的因子</a>
 </fieldset>
+</div>
 
+<div class="c5">
 <fieldset>
    <legend><img src="降低衝擊.jpg" width="375" height="75"></legend>
 <script type="text/javascript">
@@ -203,7 +212,8 @@ document.getElementById("btnhref.3").href ="javascript:divShow_3()";
 </div>
 <a href="javascript:divShow_3();" id="btnhref.3" class="btn-slide">如何降低颱風帶給我們的衝擊</a>
 </fieldset>
-    
+    </div>
+
 </form>
 </body>
 </html>
